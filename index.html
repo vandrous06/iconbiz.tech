@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICONBIZ Technologies</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="#styles.css">
+    <link rel="stylesheet" href="mediaquerry.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">  
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="images/iconbiz logo.png" alt="Company Logo">
+        </div>
+        
+        <button class="hamburger" aria-label="Menu" id="hamburger-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </button>
+        
+        <nav class="nav">
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="service.html">Our Services</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="#">ICONBIZ Digital Academy</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="slide active" style="background-image: url('images/ai.jpg');">
+            <div class="hero-content">
+                <h1>Cutting<span style="color: #ff6600;"> Edge</span> Technologies</h1>
+                <p>Whether it's harnessing AI for smarter operations, 
+                    integrating seamless automation,  <br>or future-proofing your business, 
+                    we provide the expertise and tools to ensure your success.</p>
+            </div>
+        </div>
+        <div class="slide" style="background-image: url('images/tech6.jpg');">
+            <div class="hero-content">
+                <h1>Innovative <span style="color: #ff6600;">Solutions</span></h1>
+                <p>Our team of experts delivers cutting-edge solutions tailored to your unique business needs, 
+           driving growth and efficiency.</p>
+            </div>
+        </div>
+        <div class="slide" style="background-image: url('images/tech4.jpg');">
+            <div class="hero-content">
+                <h1>Connecting You<span style="color: #ff6600;"> To the Future</span></h1>
+                <p>Our advanced technology and tailored IT services empower businesses, 
+                    <br>to overcome modern challenges and thrive in a connected world.</p>
+            </div>
+        </div>
+        <div class="slider-nav">
+            <button aria-label="Previous slide" onclick="changeSlide(-1)"><i class="fas fa-chevron-left"></i></button>
+            <button aria-label="Next slide" onclick="changeSlide(1)"><i class="fas fa-chevron-right"></i></button>
+        </div>
+    </section>
+
+    <section class="about-us">
+        <div class="about-us-image">
+            <!-- Placeholder for image -->
+            <img src="images/aboutus2.jpg" alt="about us" class="about-us-image">
+        </div>
+        <div class="about-us-content">
+            <h2>About ICONBIZ Technologies</h2>
+            <p>We are a leading technology solutions provider committed to transforming businesses with our cutting-edge products and services. At ICONBIZ Technologies, we believe in the power of smart solutions to drive growth, enhance efficiency, and create lasting impact.
+            Our mission is to empower businesses with advanced technology solutions that streamlineoperations, foster innovation, and unlock new opportunities. We are dedicated to delivering exceptional value to our clients through our expertise, creativity,
+            and unwavering commitment to quality. 
+           </p>
+            <a href="about.html" class="read-more-btn">Read More</a>
+        </div>
+    </section>
+
+    <section class="index-our-services">
+        <section class="index-our-services">
+            <h2>Our Services</h2>
+            <div class="services-wrapper">
+                <button class="nav-button prev" id="prevButton">❮</button>
+                <div class="index-services-container">
+                    <div class="index-services-grid">
+                        <div class="index-service-card">
+                            <img src="images/mobile app.jpg" alt="Mobile App Development" class="service-image">
+                            <h3>Mobile App Development</h3>
+                            <p>Create powerful, user-friendly mobile applications for iOS and Android platforms.</p>
+                        </div>
+                        <div class="index-service-card">
+                            <img src="images/website.jpg" alt="Web Development" class="service-image">
+                            <h3>Web Development</h3>
+                            <p>Build responsive and dynamic websites that engage your audience and drive conversions.</p>
+                        </div>
+                        <div class="index-service-card">
+                            <img src="images/software.jpg" alt="Software Development" class="service-image">
+                            <h3>Software Development</h3>
+                            <p>Develop custom software solutions to streamline your business processes and boost productivity.</p>
+                        </div>
+                        <div class="index-service-card">
+                            <img src="images/ai-1.jpg" alt="AI Development" class="service-image">
+                            <h3>AI Development and Training</h3>
+                            <p>Harness the power of artificial intelligence to transform your business operations and decision-making.</p>
+                        </div>
+                        <div class="index-service-card">
+                            <img src="images/grafix3d.jpg" alt="Graphics Design" class="service-image">
+                            <h3>Graphics Design</h3>
+                            <p>Create visually stunning designs that communicate your brand message effectively.</p>
+                        </div>
+                        <div class="index-service-card">
+                            <img src="images/digiMarketing.jpg" alt="Digital Marketing" class="service-image">
+                            <h3>Digital Marketing</h3>
+                            <p>Boost your online presence and reach your target audience through strategic digital marketing campaigns.</p>
+                        </div>
+                        <div class="index-service-card">
+                            <img src="images/bpo.jpg" alt="IT Consultancy" class="service-image">
+                            <h3>IT Consultancy and BPO</h3>
+                            <p>Get expert advice on IT strategies and outsource your business processes for improved efficiency.</p>
+                        </div>
+                        <div class="index-service-card">
+                            <img src="images/digi-marketing (1).jpg" alt="Digital Academy" class="service-image">
+                            <h3>Digital Academy</h3>
+                            <p>Learn cutting-edge digital skills through our comprehensive training programs and workshops.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="nav-button next" id="nextButton">❯</button>
+            </div>
+    </section
+
+    <section class="our-team">
+        <h2>Meet Our Team</h2>
+        <div class="index-team-grid">
+            <div class="index-team-member">
+                <img src="images/henry.jpeg" alt="Henry" class="team-member-image">
+                <div class="index-member-info">
+                    <h3 class="index-member-name">Henry. K Ngobi</h3>
+                    <p class="index-member-role">Managing Director</p>
+                    <div class="index-member-social">
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://wa.me/256773212030" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                        <a href="mailto:ngobih@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="index-team-member">
+                <img src="images/johnson.jpg" alt="Johnson" class="team-member-image">
+                <div class="index-member-info">
+                    <h3 class="index-member-name">Johnson Omoding</h3>
+                    <p class="index-member-role">Ag. Chief Executive Officer</p>
+                    <div class="index-member-social">
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://wa.me/256705900828" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                        <a href="mailto:omodingjohnson756@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="index-team-member">
+                <img src="images/johnson.jpg" alt="Trevor" class="team-member-image">
+                <div class="index-member-info">
+                    <h3 class="index-member-name">Trevor Rwothmio</h3>
+                    <p class="index-member-role">Software Developer</p>
+                    <div class="index-member-social">
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://wa.me/256746445703" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                        <a href="mailto:trevorrwothomio19@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="index-team-member">
+                <img src="images/miliquez.jpeg" alt="Mary" class="team-member-image">
+                <div class="index-member-info">
+                    <h3 class="index-member-name">Mary Joyce Takali</h3>
+                    <p class="index-member-role">Chief Operations Officer</p>
+                    <div class="index-member-social">
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://wa.me/256751396506" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                        <a href="mailto:takalim9@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Stats Section HTML -->
+<section class="stats-section py-5">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2 class="stats-section-title">Our Impact in Numbers</h2>
+            <div class="title-underline"></div>
+        </div>
+        
+        <div class="stats-container">
+            <!-- Clients Served -->
+            <div class="stat-item">
+                <div class="stat-card">
+                    <div class="icon-wrapper">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <div class="stat-content">
+                        <div class="stat-number">
+                            <span class="counter" data-target="20">0</span>+
+                        </div>
+                        <p class="stat-label">Clients Served</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projects Completed -->
+            <div class="stat-item">
+                <div class="stat-card">
+                    <div class="icon-wrapper">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="stat-content">
+                        <div class="stat-number">
+                            <span class="counter" data-target="35">0</span>+
+                        </div>
+                        <p class="stat-label">Projects Completed</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Awards Won -->
+            <div class="stat-item">
+                <div class="stat-card">
+                    <div class="icon-wrapper">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <div class="stat-content">
+                        <div class="stat-number">
+                            <span class="counter" data-target="25">0</span>+
+                        </div>
+                        <p class="stat-label">Awards Won</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Years Experience -->
+            <div class="stat-item">
+                <div class="stat-card">
+                    <div class="icon-wrapper">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <div class="stat-content">
+                        <div class="stat-number">
+                            <span class="counter" data-target="9">0</span>+
+                        </div>
+                        <p class="stat-label">Years Experience</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <section class="testimonials">
+        <h2>Client Success Stories</h2>
+        <div class="testimonial-slider">
+            <div class="testimonial active">
+                <div class="testimonial-content">
+                    <div class="testimonial-image">
+                        <img src="images/akrama.jpeg" alt="John Smith">
+                    </div>
+                    <div class="testimonial-text-content">
+                        <p class="testimonial-text">ICONBIZ Technologies delivered a sleek, user-friendly website that perfectly reflects our brand. 
+                            Their team was professional, attentive, and exceeded our expectations. 
+                            Highly recommend them for web development!"</p>
+                        <p class="testimonial-author">Ssempungu Akrama</p>
+                        <p class="testimonial-role">CEO, Akrama Juice</p>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial">
+                <div class="testimonial-content">
+                    <div class="testimonial-image">
+                        <img src="images/johnson.jpg" alt="Sarah Johnson">
+                    </div>
+                    <div class="testimonial-text-content">
+                        <p class="testimonial-text">
+                            ICONBIZ Technologies has been exceptional in 
+                            maintaining YIYA Foundation's website. 
+                            Their quick responses, reliable updates, and attention 
+                            to detail keep our site running smoothly. 
+                            Truly a dependable partner!
+                        </p>
+                        <p class="testimonial-author">Priscillah Kyaidhi</p>
+                        <p class="testimonial-role">Executive Director, YIYA Foundation</p>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial">
+                <div class="testimonial-content">
+                    <div class="testimonial-image">
+                        <img src="images/johnson.jpg" alt="Michael Chen">
+                    </div>
+                    <div class="testimonial-text-content">
+                        <p class="testimonial-text">
+                            ICONBIZ Technologies transformed our vision into stunning graphics for 
+                            YIYA Foundation. Their creativity, attention to detail, 
+                            and timely delivery were outstanding. 
+                            We’re thrilled with the results!"</p>
+                        <p class="testimonial-author">Mary Joyce</p>
+                        <p class="testimonial-role">Communications & Press lead, YIYA Foundation</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slider-nav">
+            <button onclick="changeTestimonial(-1)"><i class="fas fa-chevron-left"></i></button>
+            <button onclick="changeTestimonial(1)"><i class="fas fa-chevron-right"></i></button>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+<!-- Footer Section -->
+<section style="background-color: #333; color: white; padding: 40px 0; position: relative;">
+
+    <div style="max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; flex-wrap: wrap;">
+
+        <!-- About Us -->
+        <div style="flex: 1; min-width: 250px; padding: 20px;">
+            <h3 style="color: #ff6600;">About Us</h3>
+            <p>Iconbiz Technologies is at the forefront of tech innovation, providing cutting-edge solutions that shape the future of business technology.</p>
+        </div>
+
+        <!-- Contact Us -->
+        <div style="flex: 1; min-width: 250px; padding: 20px;">
+            <h3 style="color: #ff6600;">Contact Us</h3>
+            <p><i class="fas fa-phone-alt"></i>  +256 414 123 456</p>
+            <p><i class="fas fa-mobile-alt"></i>  +256 758 789 123</p>
+            <p><i class="fab fa-whatsapp"></i>  +256 758 789 123</p>
+            <p><i class="fas fa-envelope"></i>  iconbiztechnologies@gmail.com</p>
+        </div>
+
+        <!-- Visit Us -->
+        <div style="flex: 1; min-width: 250px; padding: 20px;">
+            <h3 style="color: #ff6600;">Visit Us</h3>
+            <p>Mon - Fri: 9AM to 5PM</p>
+            <p>Plot 61 Old Jinja, Kireka Road</p>
+            <p>Mbuya - Mutungo</p>
+            <p>Kampala - Uganda</p>
+        </div>
+
+        <!-- Social Media Links -->
+        <div style="flex: 1; min-width: 250px; padding: 20px; text-align: center; ">
+            <h3 style="color: #ff6600;">Social media</h3>
+            <a href="#" style="color: #ff6600; margin: 0 10px; font-size: 24px;">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#" style="color: #ff6600; margin: 0 10px; font-size: 24px;">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#" style="color: #ff6600; margin: 0 10px; font-size: 24px;">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="https://wa.me/256705900828" style="color: #ff6600; margin: 0 10px; font-size: 24px;">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+        </div>
+
+    </div>
+
+    <!-- Copyright -->
+    <div style="text-align: center; margin-top: 30px;">
+        <p>&copy; <script>document.write(new Date().getFullYear())</script> ICONBIZ Technologies | All Rights Reserved</p>
+    </div>
+
+    <!-- Back to Top Button -->
+    <button onclick="scrollToTop()" style="background-color: #ff6600; color: white; padding: 10px; border-radius: 14px; cursor: pointer; position: absolute; bottom: 20px; right: 20px; font-size: 20px;">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+</section>
+<script >
+    
+    let currentSlide = 0;
+        const slides = document.querySelectorAll('.slide');
+
+        function changeSlide(direction) {
+            slides[currentSlide].classList.remove('active');
+            currentSlide = (currentSlide + direction + slides.length) % slides.length;
+            slides[currentSlide].classList.add('active');
+        }
+
+        // Auto-change slides every 5 seconds
+        setInterval(() => changeSlide(1), 5000);
+          // New script for scrolling services
+          const servicesContainer = document.querySelector('.services-container');
+        const serviceCards = document.querySelectorAll('.service-card');
+        let currentIndex = 0;
+
+        function scrollServices() {
+            currentIndex = (currentIndex + 1) % (serviceCards.length - 3);
+            servicesContainer.scrollTo({
+                left: serviceCards[currentIndex].offsetLeft - servicesContainer.offsetLeft,
+                behavior: 'smooth'
+            });
+        }
+
+        // Scroll services every 5 seconds
+        setInterval(scrollServices, 5000);
+         // Enhanced script for testimonial slider
+         let currentTestimonial = 0;
+        const testimonials = document.querySelectorAll('.testimonial');
+
+        function changeTestimonial(direction) {
+            testimonials[currentTestimonial].classList.remove('active');
+            currentTestimonial = (currentTestimonial + direction + testimonials.length) % testimonials.length;
+            testimonials[currentTestimonial].classList.add('active');
+            updateSliderPosition();
+        }
+
+        function updateSliderPosition() {
+            const slider = document.querySelector('.testimonial-slider');
+            slider.style.transform = `translateX(-${currentTestimonial * 100}%)`;
+        }
+
+        // Auto-change testimonials every 7 seconds
+        setInterval(() => changeTestimonial(1), 7000);
+        
+    function scrollToTop() {
+        window.scrollTo({top: 0, behavior: 'smooth'});
+    }
+    document.addEventListener('DOMContentLoaded', function() {
+    const container = document.querySelector('.index-services-grid');
+    const cards = document.querySelectorAll('.index-service-card');
+    const prevButton = document.getElementById('prevButton');
+    const nextButton = document.getElementById('nextButton');
+    
+    let currentIndex = 0;
+    const cardWidth = cards[0].offsetWidth + 20; // Including gap
+    const visibleCards = 4;
+    const maxIndex = cards.length - visibleCards;
+
+    function updateButtons() {
+        prevButton.disabled = currentIndex === 0;
+        nextButton.disabled = currentIndex >= maxIndex;
+    }
+
+    function scrollToIndex(index) {
+        currentIndex = Math.max(0, Math.min(index, maxIndex));
+        container.style.transform = `translateX(-${currentIndex * cardWidth}px)`;
+        updateButtons();
+    }
+
+    prevButton.addEventListener('click', () => {
+        scrollToIndex(currentIndex - 1);
+    });
+
+    nextButton.addEventListener('click', () => {
+        scrollToIndex(currentIndex + 1);
+    });
+
+    // Initialize button states
+    updateButtons();
+
+    // Update on window resize
+    let resizeTimeout;
+    window.addEventListener('resize', () => {
+        clearTimeout(resizeTimeout);
+        resizeTimeout = setTimeout(() => {
+            scrollToIndex(currentIndex);
+        }, 100);
+    });
+});
+</script>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        function animateCounter(element) {
+            const target = parseInt(element.dataset.target);
+            const duration = 2000;
+            const step = target / (duration / 16);
+            let current = 0;
+            
+            const timer = setInterval(() => {
+                current += step;
+                if (current >= target) {
+                    element.textContent = target;
+                    clearInterval(timer);
+                } else {
+                    element.textContent = Math.floor(current);
+                }
+            }, 16);
+        }
+    
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    if (entry.target.classList.contains('counter')) {
+                        animateCounter(entry.target);
+                    }
+                    entry.target.classList.add('visible');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, {
+            threshold: 0.2
+        });
+    
+        document.querySelectorAll('.counter').forEach(counter => {
+            observer.observe(counter);
+        });
+        
+        document.querySelectorAll('.stat-card').forEach(card => {
+            card.classList.add('fade-in');
+            observer.observe(card);
+        });
+    });
+    </script>  
+    <script>
+        const hamburger = document.getElementById('hamburger-menu');
+        const navMenu = document.getElementById('nav-menu');
+        
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            navMenu.classList.toggle('active');
+        });
+    
+        // Close menu when clicking a link (optional)
+        document.querySelectorAll('.nav-menu li a').forEach(link => {
+            link.addEventListener('click', () => {
+                hamburger.classList.remove('active');
+                navMenu.classList.remove('active');
+            });
+        });
+    </script>
+   
+  
+  
+</body>
+</html>
+
+
